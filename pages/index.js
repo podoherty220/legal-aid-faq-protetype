@@ -10,11 +10,48 @@ const translations = {
     faqs: [
       {
         question: "What is Legal Aid?",
-        answer: "Legal Aid is help to pay for a lawyer or court case if you have a family problem. It can help with things like divorce, children, or safety from abuse."
+        answer:
+          "Legal Aid is help to pay for a lawyer or court case if you have a family problem. It can help with things like divorce, children, or safety from abuse."
       },
       {
         question: "Do I have to pay anything?",
-        answer: "Some people get Legal Aid for free. Others may have to pay a little bit, depending on how much money they have."
+        answer:
+          "Some people get Legal Aid for free. Others may have to pay a little bit, depending on how much money they have."
+      },
+      {
+        question: "What family problems does Legal Aid help with?",
+        answer:
+          "Legal Aid helps with divorce, seeing your children, staying safe from abuse, or getting money to help support children."
+      },
+      {
+        question: "How do I apply for Legal Aid?",
+        answer:
+          "You talk to a family solicitor. They help you fill in the form and send it in."
+      },
+      {
+        question: "What happens after I apply?",
+        answer:
+          "You wait a few weeks. If Legal Aid says yes, your solicitor can start helping you."
+      },
+      {
+        question: "How does Legal Aid help with divorce?",
+        answer:
+          "Legal Aid can help cover the cost of your divorce if you can't afford it. A solicitor will help you fill in the necessary forms and represent you in court."
+      },
+      {
+        question: "Can Legal Aid help with child custody issues?",
+        answer:
+          "Yes, Legal Aid can help if you're going to court about child custody or child contact arrangements. Your solicitor will assist you through the process."
+      },
+      {
+        question: "Can I get Legal Aid if I’m a victim of domestic abuse?",
+        answer:
+          "Yes, if you’re a victim of domestic abuse, Legal Aid can help you get protection orders or other legal assistance to keep you safe."
+      },
+      {
+        question: "What documents do I need for Legal Aid?",
+        answer:
+          "You’ll need documents like proof of income, any court papers, and identification. Your solicitor will help you with the application."
       }
     ]
   },
@@ -57,8 +94,8 @@ export default function Home() {
           onClick={() => {
             const blob = new Blob(
               [
-                `${content.title}\\n\\n` +
-                  content.faqs.map((faq) => `${faq.question}\\n${faq.answer}\\n\\n`).join("\n")
+                `${content.title}\n\n` +
+                  content.faqs.map((faq) => `${faq.question}\n${faq.answer}\n\n`).join("\n")
               ],
               { type: "text/plain;charset=utf-8" }
             );
