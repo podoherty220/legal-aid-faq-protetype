@@ -52,6 +52,21 @@ const translations = {
         question: "What documents do I need for Legal Aid?",
         answer:
           "You’ll need documents like proof of income, any court papers, and identification. Your solicitor will help you with the application."
+      },
+      {
+        question: "What happens in a divorce?",
+        answer:
+          "In a divorce, both partners must agree to end the marriage. Legal Aid can help with the court process if you need it."
+      },
+      {
+        question: "How do I get custody of my child?",
+        answer:
+          "In cases of child custody, a judge will decide what is best for the child. Legal Aid can assist you if you are going to court about custody."
+      },
+      {
+        question: "How does Legal Aid help with domestic violence cases?",
+        answer:
+          "Legal Aid can help if you're experiencing domestic violence. It can cover the cost of getting protection orders and getting legal help."
       }
     ]
   },
