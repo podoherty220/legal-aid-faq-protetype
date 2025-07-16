@@ -68,7 +68,22 @@ const translations = {
         answer:
           "Legal Aid can help if you're experiencing domestic violence. It can cover the cost of getting protection orders and getting legal help."
       }
+    ]// Add more FAQ categories
+      {
+        question: "What is Divorce?",
+        answer: "Divorce is the legal process of ending a marriage. It can involve child custody arrangements, division of assets, and more."
+      },
+      {
+        question: "What is Child Custody?",
+        answer: "Child custody refers to the legal arrangements made for the care and living arrangements of a child after divorce or separation."
+      },
+      {
+        question: "What is Domestic Violence?",
+        answer: "Domestic violence includes any abusive behavior used to control or intimidate a partner, family member, or household member."
+      }
     ]
+  }
+};
   },
   // Other languages can go here...
 };
